@@ -1,11 +1,11 @@
-
 API of basic cinema logic using Django REST framework
 
-
 ## Using DRF & PostgreSQL:
+
 Python 3 & PostgresSQL must be installed before
 
 Create db using pgAdmin
+
 ```shell
 git clone https://github.com/Oleksiy-Liubchenko/cinema-api.git
 cd cinema_service
@@ -25,7 +25,9 @@ export DB_PASSWORD=<use your DB_PASSWORD>
 python manage.py migrate
 python manage.py runserver
 ```
+
 ## Using Docker:
+
 Python 3 & Docker must be installed
 
 ```shell
@@ -35,14 +37,14 @@ docker-compose build
 docker-compose up
 ```
 
-
 ## How to get access in both cases:
 
-*  create new user - http://localhost:8000/api/user/register/
-*  get JWT Token - http://localhost:8000/api/user/token/
+* create new user - http://localhost:8000/api/user/register/
+* get JWT Token - http://localhost:8000/api/user/token/
 
 ## Features
-* JWT authenticated 
+
+* JWT authenticated
 
 * Admin panel: /admin/
 
@@ -52,7 +54,7 @@ docker-compose up
 
 * Creating movies with genres, actors
 
-* Creating cinema 
+* Creating cinema
 
 * Adding movie sessions
 
